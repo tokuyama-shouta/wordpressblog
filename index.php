@@ -81,7 +81,9 @@
                     <?php the_title(); ?>
                 </h2>
                 <h3 class="post-subtitle">
-                  Problems look mighty small from 150 miles up
+                  <!-- 抜粋 本文の一部を表示する。自分で決めることもできる-->
+                  <!-- 画像などは表示されない-->
+                  <?php the_excerpt(); ?>
                 </h3>
               </a>
               <p class="post-meta">Posted by
