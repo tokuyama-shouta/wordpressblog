@@ -41,7 +41,7 @@
                 </a>
                 <p class="post-meta">Posted by
                   <?php the_author(); ?>
-                  on <?php the_time('Y/m/d'); ?></p>
+                  on gg <?php the_time('Y/m/d'); ?></p>
               </div>
               <hr>
             <?php endwhile; ?>
