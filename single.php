@@ -30,7 +30,7 @@
                 <h1><?php the_title(); ?></h1>
                 <span class="meta">Posted by
                   <?php the_author(); ?>
-                  on <?php the_date(); ?></span>
+                  on on <?php the_date(); ?></span>
               </div>
             </div>
           </div>
