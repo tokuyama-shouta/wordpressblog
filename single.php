@@ -1,21 +1,13 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
-
+<html <?php language_attributes(); ?>>
 <head>
-
   <?php get_header(); ?>
-
 </head>
-
-<body>
-
-  <!-- Navigation -->
-  <?php get_template_part('incluse/header');?>
-
-  <?php if (have_posts()):?>
-    <?php while (have_posts()) : the_post();?>
+<body <?php body_class(); ?>>
+  
+  <?php get_template_part('incluse/header'); ?>
+  <?php if (have_posts()) : ?>
+    <?php while (have_posts()) : the_post(); ?>
       <!-- Page Header -->
       <?php
         if (has_post_thumbnail()):
