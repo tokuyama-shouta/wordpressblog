@@ -21,7 +21,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
             <h1><?php the_title()?></h1>
-            <span class="subheading">This is what I do.</span>
+            <span class="subheading">This is what I can do.</span>
           </div>
         </div>
       </div>
