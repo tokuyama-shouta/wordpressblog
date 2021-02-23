@@ -7,7 +7,7 @@ add_action('init', function() {
 
 // アイキャッチ画像がなければ、標準画像を取得する。
 function get_eyecatch_with_default() {
-  
+
   if (has_post_thumbnail()):
     $id = get_post_thumbnail_id();
     $img = wp_get_attachment_image_src($id, 'large');
@@ -16,4 +16,5 @@ function get_eyecatch_with_default() {
   endif;
 
   return $img;
+  
 }
