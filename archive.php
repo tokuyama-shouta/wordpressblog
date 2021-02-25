@@ -13,8 +13,8 @@
             <div class="row">
               <div class="col-lg-8 col-md-10 mx-auto">
                 <div class="site-heading">
-                  <h1>Clean Blog<?php echo date('Y'); ?></h1>
-                  <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                  <h1>Categoly</h1>
+                  <span class="subheading"><?php wp_title(''); ?></span>
                 </div>
               </div>
             </div>
