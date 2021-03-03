@@ -28,7 +28,7 @@
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; pkpk blog 2020</p>
+          <p class="copyright text-muted">Copyright &copy; pkpkblog 2020</p>
         </div>
       </div>
     </div>
